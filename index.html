@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flower Shop</title>
+    <!-- favicon  -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <!-- style css  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- font awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="mainContainer">
+      <nav class="inline-block container moveLeft">
+        <ul class="inline-block">
+          <li class="catalogBtn">Catalog</li>
+          <li class="galleryBtn">Gallery</li>
+          <li>About us</li>
+          <li>Contact</li>
+        </ul>
+        <img src="./images/logo.png" alt="Logo" class="logo" />
+        <ul class="inline-block socials">
+          <li>
+            <a
+              href="https://instagram.com/"
+              target="_blank"
+              class="instaIcon socialIcons"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://t.me/"
+              target="_blank"
+              class="telegramIcon socialIcons"
+              ><i class="fa-brands fa-telegram"></i
+            ></a>
+          </li>
+        </ul>
+        <div class="contactDetails">
+          <h2>+48-666-081-271</h2>
+          <span>daily from 8:00 to 20:00</span>
+        </div>
+        <ul class="inline-block searchAndMenuIcons">
+          <li><i class="fa-sharp fa-solid fa-magnifying-glass"></i></li>
+          <li><i class="fa-solid fa-bars"></i></li>
+        </ul>
+      </nav>
+
+      <br />
+      <!-- contents ================== -->
+      <div class="container contents moveLeft">
+        <div>
+          <img src="./images/flowersText.png" alt="text" class="imgText" />
+
+          <div class="textContainer">
+            <p>
+              A woman's mood is influenced by shades. A bouquet of rainbow
+              flowers can awaken new emotions. For example, red enhances energy.
+              yellow acts gently, disposes to reflection, pink is the color of
+              dreamers. sensual natures, our bouquets give a smile and
+              unforgettable emotions. Visit our catalog and see for yourself
+            </p>
+
+            <br />
+            <div class="inline-block btnsContainer">
+              <button type="button" class="catalogBtn">Open catalog</button>
+              <button type="button" class="galleryBtn">To gallery</button>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <img
+            src="./images/flowerRemoved.png"
+            alt="flowerImg"
+            class="removedFlower"
+          />
+        </div>
+      </div>
+
+      <!-- end of contents ================================================================= -->
+
+      <!-- info section start -->
+      <div class="info container moveLeft">
+        <!-- info title -->
+        <div class="info-title">
+          <h3>Flower shop <span class="underline">Malliflow</span></h3>
+          <p>
+            <span class="color-1">Malliflow</span> is a loyal flower delivery
+            friend You can order delivery or personally choose a bouquet in our
+            store. A huge selection of flowers and gifts.
+          </p>
+        </div>
+        <!-- info title end -->
+
+        <!-- services info  -->
+        <div class="services">
+          <div class="service-items customer-service">
+            <img src="./images/fast.png" alt="customer-service-icon" />
+            <h4>Customer service</h4>
+            <p>
+              Photo and video report, SMS notification at each stage of the
+              order
+            </p>
+          </div>
+          <div class="service-items fast-delivery">
+            <img src="./images/star.png" alt="delivery-icon" />
+            <h4>Fast delivery</h4>
+            <p>
+              We will deliver it within an hour in the city or at another
+              convenient time
+            </p>
+          </div>
+          <div class="service-items quality-assurance">
+            <img src="./images/thir.png" alt="quality-assurance-icon" />
+            <h4>Quality assurance</h4>
+            <p>Always fresh flowers from the best suppliers</p>
+          </div>
+        </div>
+        <div class="buttons">
+          <button id="prev">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <span class="circles active"></span>
+          <span class="circles"></span>
+          <span class="circles"></span>
+          <button id="next">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+        <!-- services info end -->
+      </div>
+      <!-- info section end -->
+
+      <div class="centeredContainer2 container moveLeft">
+        <h2 class="catalogTitle">Catalog</h2>
+        <div class="boxesContainer">
+          <div class="box1"></div>
+          <div class="box2"></div>
+          <div class="box3"></div>
+          <div class="box4"></div>
+          <div class="box6"></div>
+          <div class="box5"></div>
+        </div>
+      </div>
+
+      <br /><br />
+      <!-- discount card -->
+      <div class="discount-card container moveLeft">
+        <div class="discount-info container">
+          <h3 class="discount-title">
+            <span id="discount-bold">Get 5% DISCOUNT</span> on your first
+            purchase
+          </h3>
+          <div class="phone-input">
+            <input
+              type="number"
+              pattern="^+[0-9]*"
+              class="input-disNumber"
+              placeholder="Phone number"
+            />
+            <button class="dis-btn">Get a discount</button>
+          </div>
+          <div class="discount-icons">
+            <!-- twitter icon -->
+            <i class="fa-brands fa-twitter" style="color: rgb(0, 115, 255)"></i>
+            <!-- facebook icon -->
+            <i
+              class="fa-brands fa-facebook"
+              style="color: rgb(0, 153, 255)"
+            ></i>
+            <!-- whatsapp icon -->
+            <i class="fa-brands fa-whatsapp" style="color: rgb(0, 255, 26)"></i>
+            <!-- messenger icon -->
+            <i
+              class="fa-brands fa-instagram insta"
+              style="
+                color: radial-gradient(
+                  circle at 30% 107%,
+                  #fdf497 0%,
+                  #fdf497 5%,
+                  #fd5949 45%,
+                  #d6249f 60%,
+                  #285aeb 90%
+                );
+              "
+            ></i>
+          </div>
+          <p class="reminder">
+            *By clicking on the button, you consent to the processing of your
+            personal data
+          </p>
+        </div>
+      </div>
+      <!-- discount card end -->
+
+      <br><br>
+
+      <!-- bouquet catalog start -->
+      <div class="bouquet moveLeft">
+        <h2 class="bouquet-title">Bouquet catalog</h2>
+        <div class="filter">
+          <ul class="list">
+            <li class="categories">stock</li>
+            <li class="categories">Designer bouquets</li>
+            <li class="categories">Mono bouquets</li>
+            <li class="categories">Bouquets of dried flowers</li>
+            <li class="categories">Wedding bouquets</li>
+            <li class="categories">Bouquets in boxes</li>
+            <li class="categories">Sweet bouquets</li>
+            <li class="categories">Bouquets of soap flowers</li>
+            <li class="categories">Boxes of soap flowers</li>
+          </ul>
+          <div class="price-controller">
+            <h3>Price</h3>
+            <div class="price-range">
+              <div class="price-range">
+                <div class="range-slider">
+                  <input
+                    type="range"
+                    min="0"
+                    max="100"
+                    value="20"
+                    class="range"
+                    id="range1"
+                  />
+                  <input
+                    type="range"
+                    min="0"
+                    max="100"
+                    value="50"
+                    class="range"
+                    id="range3"
+                  />
+                </div>
+                <div class="range-display">
+                  <span class="range-value" id="range1-display"></span>
+                  <span class="range-value" id="range3-display"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-dropdown">
+            <div class="dropdown scheme-dr">
+              <button class="dropdown-button">
+                <span>Color Scheme</span>
+                <span class="btnArr"
+                  ><i class="fa-solid fa-chevron-right"></i
+                ></span>
+              </button>
+
+              <div class="dropdown-content">
+                <label class="radio-button" for="fl-1">Roses</label>
+                <input
+                  type="radio"
+                  name="color-scheme"
+                  id="fl-1"
+                  value="roses"
+                />
+
+                <label class="radio-button" for="fl-2">Peonies</label>
+                <input
+                  type="radio"
+                  name="color-scheme"
+                  id="fl-2"
+                  value="peonies"
+                />
+
+                <label class="radio-button" for="fl-3">Daises</label>
+                <input
+                  type="radio"
+                  name="color-scheme"
+                  id="fl-3"
+                  value="daises"
+                />
+
+                <label class="radio-button" for="fl-4">Dried Flowers</label>
+                <input
+                  type="radio"
+                  name="color-scheme"
+                  id="fl-4"
+                  value="dried-flowers"
+                />
+
+                <label class="radio-button" for="fl-5">Hydrangeas</label>
+                <input
+                  type="radio"
+                  name="color-scheme"
+                  id="fl-5"
+                  value="hydrangeas"
+                />
+
+                <label class="radio-button" for="fl-6">Wild Flowers</label>
+                <input
+                  type="radio"
+                  name="color-scheme"
+                  id="fl-6"
+                  value="wild-flowers"
+                />
+              </div>
+            </div>
+
+            <div class="dropdown size-dr">
+              <button class="dropdown-button">
+                <span>Sizes</span>
+                <span class="btnArr"
+                  ><i class="fa-solid fa-chevron-right"></i
+                ></span>
+              </button>
+
+              <div class="dropdown-content">
+                <label class="radio-button" for="size1">S</label>
+                <input type="radio" name="size" id="size1" value="S" />
+                <label class="radio-button" for="size2">M</label>
+                <input type="radio" name="size" id="size2" value="M" />
+                <label class="radio-button" for="size3">L</label
+                ><input type="radio" name="size" id="size3" value="L" />
+                <label class="radio-button" for="size4">XL</label
+                ><input type="radio" name="size" id="size4" value="XL" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="items-bouquet">
+          <div class="bouquet-cards"></div>
+        </div>
+      </div>
+      <br><br><br><br><br><br>
+      <!-- bouquet catalog end  -->
+
+      <!-- hidden gallery -->
+      <div class="galleryContainer container hidden">
+        <h2 class="galleryTitle">Gallery</h2>
+
+        <div class="goDown">
+          <a href="#"><i class="fa-solid fa-chevron-down"></i></a>
+        </div>
+        <div class="pic1"></div>
+        <div class="pic2"></div>
+        <div class="pic3"></div>
+        <div class="pic4"></div>
+        <div class="pic5"></div>
+        <div class="pic6"></div>
+        <div class="pic7"></div>
+      </div>
+
+      <!-- hidden catalog  -->
+      <div class="centeredContainer hiddenCatalog hidden">
+        <h2 class="catalogTitle">Catalog</h2>
+        <div class="boxesContainer">
+          <div class="goDown">
+            <a href="#"><i class="fa-solid fa-chevron-down"></i></a>
+          </div>
+          <div class="box1"></div>
+          <div class="box2"></div>
+          <div class="box3"></div>
+          <div class="box4"></div>
+          <div class="box6"></div>
+          <div class="box5"></div>
+        </div>
+      </div>
+
+       <!-- POP UP Hidden default -->
+       <div class="orderContents">
+        <div><i class="fa-solid fa-chevron-up"></i></div>
+
+        <div class="orderDiv container" style="display: none;" >
+          <div class="picture selected-item">
+            <img src="" alt="">
+          </div>
+          <div id="text"class="info1" >
+            <p>Bouquet of beautiful roses and dianthus</p>
+            <h3><i class="fa-regular fa-heart"></i> Add to favourites</h3>
+            <br>
+            <h2>Price: &nbsp; <span class="costOfProduct"></span></h2>
+            <br>
+            <button type="button" class="btnOrder">To order</button>
+            <br> <br>
+            <p><span class="boldText">Free</span> delivery from 3000 UAH</p>
+          </div>
+    
+          <div class="info2">
+            <p><i class="fa-solid fa-camera"></i>&nbsp; Photo before sending</p>
+            <p><i class="fa-solid fa-truck"></i>&nbsp; Free delivery from 3000 UAH</p>
+            <p><i class="fa-solid fa-gift"></i>&nbsp; Gift when ordering from 3000 UAH </p>
+            <br>
+            <p><i class="fa-solid fa-phone"></i>&nbsp; Order by phone:</p>
+            <h3><a href="tel:+48666081271">+48-666-081-271</a></h3>
+          </div>
+        </div>
+       </div>
+     
+
+
+
+
+
+
+       <!-- Payment page start -->
+    <div class="payment-container">
+      <div class="order-created-info">
+          <!-- close icon -->
+          <div class="close-btn">
+              <i class="fa-solid fa-xmark"></i>
+          </div>
+          <!-- <h3 class="order-created">Your order No<span id="order-number">######</span> dated <span id="order-date">29/04/2023</span>
+              <span id="order-time">26:88</span> has been successfully created</h3>
+          -->
+          <div class="payment-card-add">
+              <div class="online-payments">
+                  <div class="apple-pay">
+                      <button class="apple-pay-button"><i class="fab fa-apple-pay"></i></button>
+                  </div>
+                  <div class=" apple-pay google-pay">
+                      <button class="apple-pay-button"><i class="fa-brands fa-google-pay"></i></button>
+                  </div>
+              </div>
+
+
+              <div class="seperator">
+                  <div class="hor-line"></div>
+                  <p>or pay using credit card</p>
+                  <div class="hor-line"></div>
+              </div>
+
+              <div class="by-card">
+                  <h2 class="by-card-title">By card</h2>
+                  <div class="input-container">
+                      <label class="label-input" for="name-field">Card holder full name</label>
+                      <!-- input full name -->
+                      <input type="text" id="name-field" title="input title" class="input-field" name="input-name"
+                          placeholder="Enter your full name">
+                  </div>
+                  <div class="input-container">
+                    <label class="email-input" for="email-field">Email</label>
+                    <!-- input email -->
+                    <input type="email" id="email-field" title="input email" class="input-field" name="input-email"
+                        placeholder="Enter your email">
+                </div>
+                  <div class="input-container">
+                      <label for="number-field" class="label-input">Card Number</label>
+                      <!-- input card number -->
+                      <input type="number" id="number-field" pattern="/^\d{16}$/" title="input card number"
+                          class="input-field" name="input-number" placeholder="0000 0000 0000 0000">
+                  </div>
+                  <div class="input-container">
+                      <label for="info-field" class="label-input">Expiry Date/CVV</label>
+                      <!-- input card info -->
+                      <div class="input-number">
+                          <input type="number" id="expiration-date-field" title="input expiration date"
+                              class="input-field" name="expiration-date" pattern="^(0[1-9]|1[0-2])\/\d{2}$"
+                              placeholder="02/23">
+
+                          <input type="number" maxlength="3" id="cvv-field" title="input cvv" class="input-field"
+                              pattern="^\d{3}$" name="cvv" placeholder="###">
+
+                      </div>
+                      <div class="to-pay">
+                          <!-- button to pay -->
+                          <button class="pay-btn">Pay</button>
+                      </div>
+
+                      <div class="consent-and-icon">
+                          <div class="consent">*by clicking on the button you consent to the processing of personal
+                              data </div>
+                          <div class="pop-icons">
+                              <!-- apple pay icon -->
+                              <i class="fa-brands fa-apple-pay"></i>
+                              <!-- visa icon -->
+                              <i class="fa-brands fa-cc-visa"></i>
+                              <!-- google pay icon -->
+                              <i class="fa-brands fa-google-pay"></i>
+                              <!-- master card icon -->
+                              <i class="fa-brands fa-cc-mastercard"></i>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="your-order">
+              <h3 id="title">Your order</h3>
+              <div class="final-checkout-cart">
+                  <div class="orderImg">
+                    <img src=""  alt="">
+                    </div>
+                  <div class="orderData">
+                    <h4></h4>
+                    <p>Bouquet of beautiful roses </p>
+                    <p>and dianthus.</p>
+                    <br>
+                    <h3>Price: &nbsp; <span class="ordersCost"></span></h3>
+
+                  </div>
+                  
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+     
+      
+      </div>
+      <!-- Payment page end -->
+
+
+
+    <!-- footer start -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-links">
+            <div class="logo-link">
+                <img src="./images/logo.png" alt="">
+                <!-- telegram instagram -->
+                <div class="med">
+                    <i class="fa-brands fa-telegram" style="color: lightseagreen"></i>
+                    <!-- instagram -->
+                    <i class="fa-brands fa-instagram insta"
+                        style="color:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);"></i>
+                </div>
+                <div class="timework">
+                    <h4>+(48)-666-081-271</h4>
+                    <p>daily from 08:00-20:00</p>
+                </div>
+                <div class="address">ul.Jana Matejki 21/23</div>
+            </div>
+            <div class="information">
+                <h3>Information</h3>
+                <ul>
+                    <li><a href="#">Delivery and pickup</a></li>
+                    <li><a href="#">Payment</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">Quality assurance</a></li>
+                </ul>
+            </div>
+            <div class="catalog-link">
+                <h3>Catalog</h3>
+                <ul>
+                    <li><a href="#">Delivery and pickup</a></li>
+                    <li><a href="#">Bouquets</a></li>
+                    <li><a href="#">Flowerpots</a></li>
+                    <li><a href="#">Roses</a></li>
+                    <li><a href="#">Bears</a></li>
+                    <li><a href="#">Ballons</a></li>
+                    <li><a href="#">Flowerpots in boxes</a></li>
+                </ul>
+            </div>
+            <div class="newsteller">
+                <h3>Subscribe to our newsletter</h3>
+                <input type="email" placeholder="Your email">
+                <button>Subscribe</button>
+                <p>*by clicking on the button, you consent to the processing of personal data</p>
+            </div>
+        </div>
+        <div class="hr-line"></div>
+        <div class="footer-priv-lang">
+            <p>
+                <!-- copywriting icon -->
+                &copy; Malliflow, Inc
+            </p>
+            <div class="priv">
+                <p>Privacy policy</p>
+                <p>All rights reserved</p>
+            </div>
+            <div class="lang">
+                <p id="eng">En</p>
+                <p>|</p>
+                <p id="fr">Fr</p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- footer end -->
+
+    </footer>
+   
+
+
+
+
+    </div>
+
+    <a href="#" class="top-link"> <i class="fas fa-arrow-up"></i> </a>
+
+
+
+
+   
+    
+
+
+    
+    <script src="app.js"></script>
+  </body>
+</html>
